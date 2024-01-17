@@ -1,0 +1,36 @@
+Package: SeqtometryGUI
+Title: Flow cytometry like graphical user interface for single cell data analysis via Seqtometry
+Version: 0.1.0
+URL: https://github.com/HawigerLab/SeqtometryGUI
+Authors@R: c( 
+    person("Robert", "Kousnetsov", email = "robert.kousnetsov@health.slu.edu", role = c("aut", "cre")),
+    person("Daniel", "Hawiger", email = "daniel.hawiger@health.slu.edu", role = c("cph")))
+Description: 
+    A graphical user interface built upon the interactive Plotly charting library that interfaces with 
+    R via Shiny to facilitate a flow cytometric-like workflow to analyze single cell data using signature scores.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: R (>= 4.3.0)
+Remotes: HawigerLab/Seqtometry
+Imports:
+    BiocSingular,
+    data.table,
+    data.tree,
+    dplyr,
+    magrittr,
+    methods,
+    Matrix,
+    plotly,
+    purrr,
+    R6,
+    reticulate,
+    rlang,
+    Seurat,
+    Seqtometry,
+    shiny,
+    shinyjs,
+    shinyTree,
+    stats,
+    stringr
